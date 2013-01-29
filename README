@@ -1,0 +1,35 @@
+TableSearch Plugin v1.0.0
+-------------------------------
+Copyright (c) 2012 Simon GUICHARD. Licensed under the MIT license.
+ 
+
+Overview
+--------
+
+A jQuery plugin for a quick search in big tables
+
+Features include:
+- hightlights of matches
+- color and background color parameters
+
+
+Usage
+-----
+//include the plugin
+<script src="/link/to/jquery.tablesearch.js" type="text/javascript"></script>
+
+//call the plugin to your table 
+<script type="text/javascript">		
+	
+	jQuery(function(){
+		$(".mytables").tablesearch({bgcolor:'yellow',color:'black'});
+	});
+	
+</script>
+
+//include the following html form anywhere in your page
+<form action="" id="formTS" method="post">
+	<input type="text" id="queryTS" />
+	<input type="submit" value="Search" />
+	<input type="button" id="clearTS" value="Clear" />
+</form>
