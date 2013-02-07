@@ -6,7 +6,7 @@ Copyright (c) 2012 Simon GUICHARD. Licensed under the MIT license.
 Overview
 --------
 
-A jQuery plugin for a quick search in big tables
+A jQuery plugin for a quick search in big tables. Will display only the line that matchs the query and hightlight the terms in the line
 
 Features include:
 - hightlights of matches
